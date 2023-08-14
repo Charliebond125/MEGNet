@@ -1,26 +1,28 @@
-# MEGNet
-Using EEGNet and converting this into MEGNet for use with Magnetoenecalography Data. Includes a Preprocessing Pipeline, and Variations of EEGNet converted for use in MEG Datasets.
-
+This repository contains code and resources for the research project titled "MEGNet: A MEG-Based Deep Learning Model for Cognitive and Motor Imagery Classification" The project aims to develop a robust pipeline for accurately classifying motor and cognitive imagery using magnetoencephalography (MEG) data. The proposed study includes meticulous preprocessing, model configuration, and training using deep learning architectures.
 ##########################################################
 
-To note - Code is still a work in progress.
+# Project Overview
+The research project is structured into three main components:
 
-Pipeline may be subject to change.
+* Data Preprocessing Notebook: This Jupyter Notebook (data_preprocessing.ipynb) outlines the comprehensive preprocessing pipeline designed to enhance the quality and reliability of MEG data. It covers resampling, bad channel interpolation, filtering, and artifact removal.
 
-Pipeline includes a variety of processing steps involved in the pre-processing stage of MEG data. As is often the case, MEG captures a high temporal spatial accuracy within recordings, however the noise to signal ratio (along with EEG) is often low. This pipeline will at first serve a basic purpose in shuttling and preparing epochs to be used within a EEGNet model (available here: https://raw.githubusercontent.com/vlawhern/arl-eegmodels/master/EEGModels.py and
-https://github.com/vlawhern/arl-eegmodels/tree/master)
+* Data Preparation and Model Training Notebook: In the Jupyter Notebook (data_prep_and_model_training.ipynb), the preprocessed data is further prepared for model training. Different deep learning models, including MEGNet, ShallowConvNet, and DeepConvNet, are trained, evaluated, and compared using cross-validation techniques.
 
-Referenced as below:
+* Model Implementations: The Python file (models.py) contains implementations of the MEGNet, ShallowConvNet, and DeepConvNet architectures, each tailored for analyzing MEG data. These implementations are utilized in the training process.
 
-@article{Lawhern2018,
-  author={Vernon J Lawhern and Amelia J Solon and Nicholas R Waytowich and Stephen M Gordon and Chou P Hung and Brent J Lance},
-  title={EEGNet: a compact convolutional neural network for EEG-based brain–computer interfaces},
-  journal={Journal of Neural Engineering},
-  volume={15},
-  number={5},
-  pages={056013},
-  url={http://stacks.iop.org/1741-2552/15/i=5/a=056013},
-  year={2018}
-}
+# How to Use
+* Open the Jupyter Notebook data_preprocessing.ipynb. Follow the step-by-step instructions to preprocess the MEG data. Adjust the preprocessing parameters as needed for your specific dataset.
 
-EEGNet is Implemented using TensorFlow/Keras, but further experimentation may take place in utilizing PyTorch.
+* Move on to the Jupyter Notebook data_prep_and_model_training.ipynb. This notebook demonstrates how to prepare the preprocessed data for model training. It covers the configuration of different deep learning architectures and the hyperparameter tuning process. Training, validation, and evaluation procedures are explained in detail.
+
+* If you wish to explore the model architectures themselves, refer to the models.py file. This file contains the implementations of MEGNet, ShallowConvNet, and DeepConvNet architectures, which can be further customized and utilized for various applications.
+
+# Dependencies
+The code in this repository depends on several Python packages, including but not limited to:
+
+numpy
+pandas
+mne
+scikit-learn
+tensorflow (for deep learning models)
+Please ensure you have these packages installed before running the code.
