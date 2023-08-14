@@ -8,7 +8,7 @@ The research project is structured into three main components:
 
 * Data Preparation and Model Training Notebook: In the Jupyter Notebook (data_prep_and_model_training.ipynb), the preprocessed data is further prepared for model training. Different deep learning models, including MEGNet, ShallowConvNet, and DeepConvNet, are trained, evaluated, and compared using cross-validation techniques.
 
-* Model Implementations: The Python file (models.py) contains implementations of the MEGNet, ShallowConvNet, and DeepConvNet architectures, each tailored for analyzing MEG data. These implementations are utilized in the training process.
+* Model Implementations: The Python file (MEGmodels.py) contains implementations of the MEGNet, ShallowConvNet, and DeepConvNet architectures, each tailored for analyzing MEG data. These implementations are utilized in the training process.
 
 # How to Use
 * Open the Jupyter Notebook data_preprocessing.ipynb. Follow the step-by-step instructions to preprocess the MEG data. Adjust the preprocessing parameters as needed for your specific dataset.
