@@ -1,5 +1,5 @@
 This repository contains code and resources for the research project titled "MEGNet: A MEG-Based Deep Learning Model for Cognitive and Motor Imagery Classification" The project aims to develop a robust pipeline for accurately classifying motor and cognitive imagery using magnetoencephalography (MEG) data. The proposed study includes meticulous preprocessing, model configuration, and training using deep learning architectures.
-##########################################################
+
 
 # Project Overview
 The research project is structured into three main components:
@@ -20,9 +20,11 @@ The research project is structured into three main components:
 # Dependencies
 The code in this repository depends on several Python packages, including but not limited to:
 
-numpy
-pandas
-mne
-scikit-learn
-tensorflow (for deep learning models)
-Please ensure you have these packages installed before running the code.
+- numpy
+- pandas
+- mne
+- scikit-learn
+- tensorflow (for deep learning models)
+- Please ensure you have these packages installed before running the code.
+
+For any error or bugs contact us at 'minervasarma@gmail.com' and 'charliebond125@gmail.com'
