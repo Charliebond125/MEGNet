@@ -25,6 +25,7 @@ The code in this repository depends on several Python packages:
 - mne
 - scikit-learn
 - tensorflow (for deep learning models)
+
 Please ensure you have these packages installed before running the code.
 
 For any error or bugs contact us at 'minervasarma@gmail.com' and 'charliebond125@gmail.com'
