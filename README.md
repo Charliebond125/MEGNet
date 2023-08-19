@@ -18,13 +18,13 @@ The research project is structured into three main components:
 * If you wish to explore the model architectures themselves, refer to the models.py file. This file contains the implementations of MEGNet, ShallowConvNet, and DeepConvNet architectures, which can be further customized and utilized for various applications.
 
 # Dependencies
-The code in this repository depends on several Python packages, including but not limited to:
+The code in this repository depends on several Python packages:
 
 - numpy
 - pandas
 - mne
 - scikit-learn
 - tensorflow (for deep learning models)
-- Please ensure you have these packages installed before running the code.
+Please ensure you have these packages installed before running the code.
 
 For any error or bugs contact us at 'minervasarma@gmail.com' and 'charliebond125@gmail.com'
